@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <br>
+        <a href="/index.html">INDEX</a>
+        <h2>Formularios HtML</h2>
+    </header>
+    <main>
+        <div>
+            <h1>¿Dudas y consultas? Envía tu mensaje aquí:</h1>
+            <p>Estudiantes apasionados; queremos ser parte de su viaje universitario.</p>
+            <p>Compártenos tus dudas y sueños. Cada inquietud es un paso hacia el conocimiento y cada sueño es una luz en nuestro camino. ¡Construyamos juntos un futuro lleno de aprendizaje y experiencias inolvidables!</p>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <input type="text" name="nombre" id="nombre" placeholder="Coloca aquí tu nombre">
+                <input type="tel" name="teléfono" id="teléfono" placeholder="Teléfono a 10 dígitos" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                <input list="opciones">
+                <datalist id="opciones">
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Empleado/a">Empleado/a</option>
+                    <option value="Egresado/a">Egresado/a</option>
+                    <option value="Aspirante">Aspirante</option>
+                </datalist>
+                <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar">
+
+
+            </form>
+        </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
