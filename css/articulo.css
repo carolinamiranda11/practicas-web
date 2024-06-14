@@ -1,0 +1,19 @@
+/* documento css */
+
+.spotify{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1, h2{
+    margin-left: 40px;
+}
+
+h6{
+    margin-left: 20px;
+}
+
+p{
+    margin: 20px;
+    text-align: justify;
+}

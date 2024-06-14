@@ -1,0 +1,71 @@
+/*documento css*/
+
+
+*{
+    font-family: "Space Grotesk", sans-serif;
+    text-align: justify;
+    background-color: rgb(239, 241, 253);
+    margin-left: 10px;
+}
+
+h1{
+    color: rgb(4, 4, 155);
+    text-transform: uppercase;
+}
+
+h2{
+    color: rgb(76, 92, 182);
+
+}
+
+.hola{
+    color: rgb(3, 3, 74);
+}
+
+.adios{
+    color: rgb(3, 3, 74);
+}
+
+.bye{
+    color: rgb(3, 3, 74);
+}
+
+.hello{
+    color: rgb(3, 3, 74);
+}
+
+p{
+    margin-right: 20px;
+}
+
+.pie{
+    color: rgb(76, 92, 182)
+}
+
+.ultimo{
+    color: blue;
+}
+
+.violeta{
+    color: blueviolet;
+}
+
+.pola{
+    color: brown;
+}
+
+.clase{
+    color: blue;
+}
+
+.clases{
+    color: blueviolet;
+}
+
+.clasess{
+    color: brown;
+}
+
+.clasesss{
+    color: blue;
+}

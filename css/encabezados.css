@@ -1,0 +1,45 @@
+/* documento css */
+*{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h1{
+    color: rgb(5, 5, 170);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2, h3, h4, h5, h6{
+    color: rgb(62, 36, 6);
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+body{
+    background-color: rgb(223, 218, 205);
+    font-size: 16px;
+}
+
+.warning{
+    color: rgb(5, 5, 170);
+}
+
+.imagen{
+    float: left;
+    margin-right: 20px;
+}
+
+.contenido{
+    font-weight: 300;
+    line-height: 1em;
+    border-bottom: 30px double rgb(62, 36, 6) ;
+}
+
+
+
+
+
