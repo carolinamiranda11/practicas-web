@@ -16,8 +16,7 @@ div.contenedor {display: flex;
                 width: 95%;
                 margin: auto; 
                 position: relative;
-                top: 19px;
-                }
+                top: 19px;}
 
 a.item { color: #000057;
           font-family: "Varela Round", sans-serif;
@@ -40,9 +39,7 @@ a.item:last-child { border-top-right-radius: 15px;
 
 @media only screen and (min-width: 768px);{
 
-    div.contenedor {width: 70%; }
-    
-}
+    div.contenedor {width: 70%; } }
 @media only screen and (min-width:1280px) {
     div.contenedor { width: 50%;}
     
