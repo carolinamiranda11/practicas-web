@@ -1,7 +1,8 @@
 /* documento css */
 
 .spotify{ background-image: url (https://revistadorsia.com/wp-content/uploads/2022/04/kendrick1.jpeg);
-    color: #000000;
+    color: aliceblue;
+    background-color: black;
     font-family: "lexend", sans-serif;}
 
 h1, h2{ margin-left: 114px;}
