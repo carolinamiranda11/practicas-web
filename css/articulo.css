@@ -1,46 +1,30 @@
 /* documento css */
 
-.spotify{
-    background-image: url(https://revistadorsia.com/wp-content/uploads/2022/04/kendrick1.jpeg);
+.spotify{ background-image: url (https://revistadorsia.com/wp-content/uploads/2022/04/kendrick1.jpeg);
     color: aliceblue;
-    font-family: "lexend", sans-serif;
-}
+    font-family: "lexend", sans-serif;}
 
-h1, h2{
-    margin-left: 114px;
-}
+h1, h2{ margin-left: 114px;}
 
-h2{
-    font-weight: 300;
-}
+h2{ font-weight: 300;}
 
-h3{
-    margin-left: 114px;
-    font-family: "lexend", sans-serif;
-}
+h3{ margin-left: 114px;
+    font-family: "lexend", sans-serif;}
 
-p{
-    max-width: 80%;
+p{ max-width: 80%;
     margin: auto;
     text-align: justify;
     font-family: "lexend", sans-serif;
     font-weight: 250;
-    font-size: small;
-}
+    font-size: small;}
 
-ol{
-    margin-left: 93px;
+ol{ margin-left: 93px;
     font-family: "lexend", sans-serif;
-    font-size: small;
-}
+    font-size: small;}
 
-.logo{
-    float: right;
+.logo{ float: right;
     margin-right: 60px;
-    width: 100px;
-}
+    width: 100px;}
 
-h4{
-    margin-left: 114px;
-    font-family: "lexend", sans-serif;
-}
+h4{ margin-left: 114px;
+    font-family: "lexend", sans-serif;}
