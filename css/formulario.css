@@ -7,14 +7,11 @@
 
 /*TIPOGRAFÍA*/
 
-@font-face {
-    font-family: 'barsuk20bregular';
+@font-face { font-family: 'barsuk20bregular';
     src: url('/fonts/b20sans-webfont.woff') format('woff2'),
          url('/fonts/b20sans-webfont.woff2') format('woff');
     font-weight: normal;
-    font-style: normal;
-
-}
+    font-style: normal;}
 
 body { font-family: 'barsuk20bregular'; }
 
@@ -41,8 +38,7 @@ h1 { padding-bottom: 15px;
              box-sizing: border-box; }
 
 .item { width: 100%;
-        margin-bottom: 16px;
-         }
+        margin-bottom: 16px;}
 
 .item span { font-size: 0.9em; }
 
@@ -72,43 +68,24 @@ h1 { padding-bottom: 15px;
              background: linear-gradient(132deg, rgba(248,254,240,1) 0%, rgba(78,112,6,1) 97%); }
 
 /*MEDIA QUERIES codigos para pantallas de 600px en adelante Movile first*/
-@media only screen and (min-width:588px) { 
-
-     h1 { font-size: 4.3em; }
+@media only screen and (min-width:588px) {  h1 { font-size: 4.3em; }
      .item p { font-size: 2em;
-               margin-bottom: 25px; }
-     
-     }
+               margin-bottom: 25px; }  }
 
 /*Pantallas mayores a 992*/     
-@media only screen and (min-width:992px) { 
-
-          h1 { font-size: 3.5em; }
-          .item p { font-size: 1.8em;
-                }
-
+@media only screen and (min-width:992px) {  h1 { font-size: 3.5em; }
+          .item p { font-size: 1.8em; }
           body { background-color: #e6f4b0; }
           .formulario { width: 50%; 
-                        margin: auto;}
-
-          }
+                        margin: auto;} }
 
 /*Pantallas mayores a 1280*/     
-@media only screen and (min-width:1280px) { 
-
-     h1 { font-size: 2.4em;
+@media only screen and (min-width:1280px) {  h1 { font-size: 2.4em;
           padding-bottom: 30px; }
-
-     .item p { font-size: 1.5em;
-           }
-
-     .container  { 
-                   width: 80%;
+       .item p { font-size: 1.5em; }
+     .container  { width: 80%;
                    margin: auto; } 
-
-     .item { width: 50% !important; }
-
-     }
+ .item { width: 50% !important; } }
           
 
 
