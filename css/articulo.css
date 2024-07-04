@@ -1,19 +1,46 @@
 /* documento css */
 
 .spotify{
-    background-color: black;
+    background-image: url(https://revistadorsia.com/wp-content/uploads/2022/04/kendrick1.jpeg);
     color: aliceblue;
+    font-family: "lexend", sans-serif;
 }
 
 h1, h2{
-    margin-left: 40px;
+    margin-left: 114px;
 }
 
-h6{
-    margin-left: 20px;
+h2{
+    font-weight: 300;
+}
+
+h3{
+    margin-left: 114px;
+    font-family: "lexend", sans-serif;
 }
 
 p{
-    margin: 20px;
+    max-width: 80%;
+    margin: auto;
     text-align: justify;
+    font-family: "lexend", sans-serif;
+    font-weight: 250;
+    font-size: small;
+}
+
+ol{
+    margin-left: 93px;
+    font-family: "lexend", sans-serif;
+    font-size: small;
+}
+
+.logo{
+    float: right;
+    margin-right: 60px;
+    width: 100px;
+}
+
+h4{
+    margin-left: 114px;
+    font-family: "lexend", sans-serif;
 }
