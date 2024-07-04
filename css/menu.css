@@ -1,0 +1,50 @@
+/*DOCUMENTO CSS*/
+*{margin:0;
+padding:0; }
+
+body {background-color: rgba(146, 185, 240, 0.689); }
+
+header.cabecera {background-color: rgb(0, 20, 132);}
+
+div.logo {color: whitesmoke;
+        font-size: 4em;
+        text-align:center;}
+
+nav.menu {}
+
+div.contenedor {display: flex;
+                width: 95%;
+                margin: auto; 
+                position: relative;
+                top: 19px;
+                }
+
+a.item { color: #000057;
+          font-family: "Varela Round", sans-serif;
+          width: 20%;
+          text-align: center;
+          padding: 8px 0px;
+          font-size: 0.8em;
+          border: 1px  solid rgba(7, 7, 31, 0.529);
+          background-color: whitesmoke; 
+          box-sizing: border-box; }
+
+a.item:first-child { border-top-left-radius: 15px;
+                    border-bottom-left-radius:15px;}
+
+a.item:last-child { border-top-right-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                    background-color: rgb(0, 10, 97);
+                    color: white; }
+
+
+@media only screen and (min-width: 768px);{
+
+    div.contenedor {width: 70%; }
+    
+}
+@media only screen and (min-width:1280px) {
+    div.contenedor { width: 50%;}
+    
+}
+        
