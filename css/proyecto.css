@@ -1,27 +1,17 @@
 /*DOCUMENTO CSS*/
-
 {margin:0;
     padding:0}
-    
     body {background-color: #ffe4c4;}
-    
     header.cabecera {background-color: black;}
-    
     div.logo {width: 180px;}
-    
     .logo img {display: flex;
                justify-content: center;}
-    
-    
-    nav.menu{}
-    
     div.contenedor {display: flex;
                     width: 95%;
                     margin: auto;
                     position: relative;           
                     top:19px;
                     align-items: center;}
-    
     a.item {color: white;
             font-family: "Advent Pro", sans-serif;
             width: 25%;
@@ -31,8 +21,6 @@
             border: 1px solid white;
             background-color: black;
             box-sizing: border-box; }
-    
-    
     div.boton {color: black;
               font-family: "Montserrat Alternates", sans-serif;
               width: 30%;
@@ -44,27 +32,19 @@
               border-radius: 25px;
               align-content: center;
             margin: auto;}
-    
-    
     .productos{width: 60%;
         margin: auto;
         display: flex;
         flex-wrap: wrap;}
-
-
     .promociones{width: 60%;
         margin: auto;
         display: flex;
         flex-wrap: wrap;}
-
     .items{width: 50%;}
-    
     .item2 img {width: 100%;
                 margin-top: 40px;
                 margin-bottom: 5px;}
-    
-    .item2 {width: 50%;}
-                   
+    .item2 {width: 50%;}            
     .item2 span{color: white;
                 font-family: "Advent Pro", sans-serif;
                 width: 30%;
@@ -74,21 +54,15 @@
                 font-size: 2em;
                 border: 1px solid white;
                 background-color: rgba(158, 138, 138, 0.544);
-                border-radius: 15px;}
-  
-                
+                border-radius: 15px;}     
  .item2 span {display: flex;
     margin: auto;
     position: relative;
     top: 19px;
-    justify-content: center;}
-                
+    justify-content: center;}        
     .item3 img {width: 100%;
     margin-top: 40px;}
-    
-    .item3 {width: 50%;}
-                        
-                               
+    .item3 {width: 50%;}                    
     .item3 span{color: white;
                 font-family: "Advent Pro", sans-serif;
                 width: 30%;
@@ -98,15 +72,12 @@
                 font-size: 1em;
                 border: 1px solid white;
                 background-color: rgba(158, 138, 138, 0.544);
-                border-radius: 15px;}
-                
+                border-radius: 15px;}  
     .item3 span {display: flex;
                 margin: auto;
                 position: relative;
                 top: 19px;
                 justify-content: center;}
-    
-
      div.ubicacion {color: black;
                     font-family: "Advent Pro", sans-serif;
                     width: 40%;
@@ -114,22 +85,16 @@
                     margin: auto;
                     padding: 4px 9px;
                     font-size: 1.3em;}
-
     .item4 img {width: 100%;
                         margin-top: 20px;}
-    
     .item5 img{display: flex;
             width: 120px;
             justify-content: center;
             margin: auto;}
-
     div.contacto{font-family: "Advent Pro", sans-serif;
         font-size: 30px;
         text-align: center;}
-
     .bi-whatsapp{margin-right: 10px;}
     .bi-instagram{margin-right: 10px; margin-left: 30px;}
     p.didi{text-align: center; font-family: "Montserrat Alternates", sans-serif;}
-
     @media only screen and (min-width:1280px) {div.contenedor { width:50%;}}
-        
