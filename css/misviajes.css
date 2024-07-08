@@ -1,6 +1,5 @@
 /* documento css */
-* {
- margin: 0;
+* {margin: 0;
     padding: 0;
     box-sizing: border-box;}
 
@@ -15,70 +14,49 @@ font-style: italic;}
 h2 { text-align: center;}
 
 /* Encabezado */
-header {
-    background-color: #604a33;
+header {background-color: #604a33;
     color: #ecdfcd;
     text-align: center;
-    padding: 1em 0;
-}
+    padding: 1em 0;}
 
 
-main {
-    padding: 0em;
-}
+main {padding: 0em;}
 
-section {
-    margin-bottom: 2em;
+
+section {margin-bottom: 2em;
     padding: 2em;
-    border-radius: 8px;
-}
+    border-radius: 8px;}
 
-.cdmx {
-    background-color: #bab78c;
+.cdmx {background-color: #bab78c;
     padding-right: 30%;
-    padding-left: 30%;
-}
+    padding-left: 30%;}
 
-.cuerna {
-    background-color: #be8c6b;
+.cuerna {background-color: #be8c6b;
     padding-right: 30%;
-    padding-left: 30%;
-}
+    padding-left: 30%;}
 
-.slp {
-    background-color: #879281;
+.slp {background-color: #879281;
     padding-right: 30%;
-    padding-left: 30%;
-}
+    padding-left: 30%;}
 
 
-section img {
-    max-width: 100%;
+section img { max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 1em;
-}
+    margin: 0 auto 1em;}
 
-section p {
-    text-align: center;
-    font-size: 1.1em;
-}
+section p {text-align: center;
+    font-size: 1.1em;}
 
 
-.images-container {
-    display: flex;
+.images-container {display: flex;
     justify-content: space-around;
-    margin-bottom: 1em;
-}
+    margin-bottom: 1em;}
 
-.images-container img {
-    max-width: 48%;
-}
+.images-container img {max-width: 48%;}
 
 
-footer {
-    background-color: #604a33;
+footer { background-color: #604a33;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
-}
+    padding: 1em 0;}
